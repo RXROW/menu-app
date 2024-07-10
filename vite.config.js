@@ -6,10 +6,11 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      // external configuration here is typically used for dependencies,
-      // not for static assets like images.
-      external:  ['src/assets/1.png'],
+      external: [
+        'src/assets/1.png',
+        'src/assets/2.png',
+        'src/assets/3.png',
+      ],
     },
   },
 })
-
