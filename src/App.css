@@ -1,0 +1,42 @@
+ .color-body{
+  background-color: antiquewhite;
+ }
+ .brand-color{
+  color:  orangered;
+ }
+ .main-title{
+  font-size: 2rem;
+  color: #5b1800;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px 0;
+  border-bottom: 7px solid orangered;
+  width: max-content;
+
+ }
+
+ .mybtn{
+ padding: 5px 15px;
+ font-size: 20px;
+ border: none;
+ background-color:transparent;
+ border: 2px solid  orange;
+ border-radius: 5px;
+transition: all 0.3s ease-in-out;
+ }
+ .mybtn:hover{
+  background-color: orange;
+
+  border-color:  transparent;
+ }
+ .img-item{
+  width: 400px;
+ 
+  max-width: 100%;
+ }
+ @media (max-width:988px) {
+  .img-item{
+ width: 100%;
+   }
+  
+ }
